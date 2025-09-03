@@ -16,6 +16,7 @@ public class LancamentoController {
 
     @Autowired
     private LancamentoRepository lancamentoRepository;
+
     // Método para carregar a página principal
     @GetMapping("/")
     public String index(Model model) {
