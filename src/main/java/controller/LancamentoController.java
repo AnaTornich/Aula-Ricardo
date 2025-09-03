@@ -1,8 +1,8 @@
 package controller;
 
+import Repository.LancamentoRepository;
 import br.com.controledegastos.model.Lancamento;
 import br.com.controledegastos.model.TipoLancamento;
-import br.com.controledegastos.repository.LancamentoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,7 +16,6 @@ public class LancamentoController {
 
     @Autowired
     private LancamentoRepository lancamentoRepository;
-
     // Método para carregar a página principal
     @GetMapping("/")
     public String index(Model model) {
