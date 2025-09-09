@@ -1,4 +1,4 @@
-package Repository;
+package br.com.controledegastos.Repository;
 
 import br.com.controledegastos.model.Lancamento;
 import org.springframework.data.jpa.repository.JpaRepository;

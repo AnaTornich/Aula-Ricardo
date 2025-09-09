@@ -1,6 +1,6 @@
-package controller;
+package br.com.controledegastos.controller;
 
-import Repository.LancamentoRepository;
+import br.com.controledegastos.Repository.LancamentoRepository;
 import br.com.controledegastos.model.Lancamento;
 import br.com.controledegastos.model.TipoLancamento;
 import org.springframework.beans.factory.annotation.Autowired;
